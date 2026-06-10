@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: homecloud
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: homecloud
+  template:
+    metadata:
+      labels:
+        app: homecloud
+    spec:
+      containers:
+      - name: homecloud
+        image: kubeforge_homecloud:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80
