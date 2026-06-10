@@ -189,14 +189,6 @@ Through this project I gained practical experience with:
 
 ---
 
-## Future Improvements
 
-Potential future enhancements include:
-
-* Multiple application replicas
-* Horizontal scaling
-* Kubernetes Ingress
-* Custom domain routing
-* Monitoring with Prometheus and Grafana
 * Additional containerized services
 * CI/CD pipeline integration
