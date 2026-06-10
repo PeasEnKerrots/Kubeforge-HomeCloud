@@ -118,7 +118,7 @@ kubectl get services
 
 ### Kubernetes Pod Running
 
-[INSERT SCREENSHOT HERE]
+![Kubernetes Pod Running](Screenshots/Pod_Running.png)
 
 **Screenshot:** Output of:
 
@@ -132,7 +132,7 @@ Demonstrates that the HomeCloud application is successfully running inside Kuber
 
 ### Kubernetes Service
 
-[INSERT SCREENSHOT HERE]
+![Kubernetes Service](Screenshots/Kubectl_get_services.png)
 
 **Screenshot:** Output of:
 
@@ -146,7 +146,7 @@ Demonstrates that the application has been exposed through a Kubernetes Service.
 
 ### Application Running
 
-[INSERT SCREENSHOT HERE]
+![Application Running](Screenshots/Webpage.png)
 
 **Screenshot:** Browser window displaying the deployed webpage.
 
